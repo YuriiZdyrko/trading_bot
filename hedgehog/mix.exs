@@ -16,7 +16,8 @@ defmodule Hedgehog.MixProject do
   # Run "mix help deps" for examples and options.
   defp deps do
     [
-      {:websockex, "~> 0.4"}
+      {:websockex, "~> 0.4"},
+      {:jason, "~> 1.2"}
     ]
   end
 end
